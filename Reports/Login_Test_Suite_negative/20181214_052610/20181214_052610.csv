@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite_negative,Chrome 70.0.3538.110,Test suite for negative login test cases,2018-12-14 05:28:53,2018-12-14 05:30:23,1m - 30.756s,PASSED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-14 05:28:53,2018-12-14 05:29:30,37.095s,PASSED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:28:55,2018-12-14 05:29:10,15.001s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:10,2018-12-14 05:29:10,0.235s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 05:29:10,2018-12-14 05:29:16,5.741s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:16,2018-12-14 05:29:16,0.604s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/email_textbox""), var_username_neg)",Chrome 70.0.3538.110,,2018-12-14 05:29:16,2018-12-14 05:29:18,1.641s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/password_textbox""), var_password_neg)",Chrome 70.0.3538.110,,2018-12-14 05:29:18,2018-12-14 05:29:18,0.257s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 05:29:18,2018-12-14 05:29:18,0.351s,PASSED
+"success = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_email""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:18,2018-12-14 05:29:25,6.502s,PASSED
+"success1 = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_password""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:25,2018-12-14 05:29:25,0.073s,PASSED
+"success2 = waitForElementPresent(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err""), 5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:25,2018-12-14 05:29:30,5.224s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 05:29:30,2018-12-14 05:29:30,0.001s,PASSED
+else if (success1),Chrome 70.0.3538.110,,2018-12-14 05:29:30,2018-12-14 05:29:30,0.019s,PASSED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-14 05:29:30,2018-12-14 05:29:57,26.950s,PASSED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:29:30,2018-12-14 05:29:44,13.558s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:44,2018-12-14 05:29:44,0.175s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 05:29:44,2018-12-14 05:29:50,6.257s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:50,2018-12-14 05:29:51,0.350s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/email_textbox""), var_username_neg)",Chrome 70.0.3538.110,,2018-12-14 05:29:51,2018-12-14 05:29:51,0.853s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/password_textbox""), var_password_neg)",Chrome 70.0.3538.110,,2018-12-14 05:29:51,2018-12-14 05:29:52,0.211s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 05:29:52,2018-12-14 05:29:52,0.197s,PASSED
+"success = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_email""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:52,2018-12-14 05:29:52,0.072s,PASSED
+"success1 = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_password""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:52,2018-12-14 05:29:52,0.070s,PASSED
+"success2 = waitForElementPresent(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err""), 5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:29:52,2018-12-14 05:29:57,5.161s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 05:29:57,2018-12-14 05:29:57,0.003s,PASSED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-14 05:29:57,2018-12-14 05:30:23,25.396s,PASSED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:29:57,2018-12-14 05:30:10,13.188s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:30:10,2018-12-14 05:30:10,0.026s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 05:30:10,2018-12-14 05:30:16,5.394s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:30:16,2018-12-14 05:30:16,0.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/email_textbox""), var_username_neg)",Chrome 70.0.3538.110,,2018-12-14 05:30:16,2018-12-14 05:30:17,1.043s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/password_textbox""), var_password_neg)",Chrome 70.0.3538.110,,2018-12-14 05:30:17,2018-12-14 05:30:17,0.206s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 05:30:17,2018-12-14 05:30:17,0.142s,PASSED
+"success = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_email""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:30:17,2018-12-14 05:30:17,0.060s,PASSED
+"success1 = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_password""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:30:17,2018-12-14 05:30:17,0.062s,PASSED
+"success2 = waitForElementPresent(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err""), 5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:30:17,2018-12-14 05:30:23,5.174s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 05:30:23,2018-12-14 05:30:23,0.004s,PASSED

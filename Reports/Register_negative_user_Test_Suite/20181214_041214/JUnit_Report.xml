@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register_negative_user_Test_Suite" time="114" tests="0" failures="3" errors="0">
+   <testsuite name="Register_negative_user_Test_Suite" tests="0" failures="3" errors="0" time="114" timestamp="2018-12-14 04:18:42" hostname="MNJUGUNA3 - LTTECH034.safaricom.net" id="Test Suites/Register_negative_user_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Register_negative_user_Test_Suite\\20181214_041214"/>
+         <property name="logFiles" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Register_negative_user_Test_Suite\\20181214_041214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MNJUGUNA3 - LTTECH034.safaricom.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="169.254.183.47"/>
+         <property name="sessionId" value="1c2892e63052472abc04343a3498c532"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register_negative" classname="Test Cases/Register_negative" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 04:18:43 - [TEST_CASE][FAILED] - Test Cases/Register_negative: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:18:44 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:18:45 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 04:18:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 04:18:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:18:58 - [TEST_STEP][PASSED] - waitForPageLoad(10, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 04:18:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 04:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register_Objects/Register_span")): Object: 'Object Repository/Register_Objects/Register_span' is clicked on
+
+2018-12-14 04:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Objects/Register_span' is clicked on
+
+2018-12-14 04:19:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/first_name"), reg_firstname_neg): Text 'John' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/first_name'
+
+2018-12-14 04:19:16 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/first_name'
+
+2018-12-14 04:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/last_name"), reg_lastname_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/last_name'
+
+2018-12-14 04:19:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/last_name'
+
+2018-12-14 04:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no"), reg_mobile_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no'
+
+2018-12-14 04:19:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no'
+
+2018-12-14 04:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/email"), reg_email_neg): Text 'jk@gmail.com' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/email'
+
+2018-12-14 04:19:16 - [MESSAGE][PASSED] - Text 'jk@gmail.com' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/email'
+
+2018-12-14 04:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/password"), reg_pword_neg): Text 'john1007*#' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/password'
+
+2018-12-14 04:19:17 - [MESSAGE][PASSED] - Text 'john1007*#' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/password'
+
+2018-12-14 04:19:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password"), reg_conf_pword_neg): Text 'john1007*#' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password'
+
+2018-12-14 04:19:17 - [MESSAGE][PASSED] - Text 'john1007*#' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password'
+
+2018-12-14 04:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn")): Object: 'Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn' is clicked on
+
+2018-12-14 04:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn' is clicked on
+
+2018-12-14 04:19:17 - [TEST_STEP][PASSED] - success = waitForElementVisible(findTestObject("Object Repository/Register_Objects/Page_Customer Login/confirm_account_success"), 10, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Register_Objects/Page_Customer Login/confirm_account_success' located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div' not found
+
+2018-12-14 04:19:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 04:19:28 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Register_Objects/Page_Customer Login/confirm_account_success' located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div' not found
+
+2018-12-14 04:19:28 - [TEST_STEP][PASSED] - if (success): null
+
+2018-12-14 04:19:28 - [TEST_STEP][FAILED] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:19:28 - [TEST_STEP][FAILED] - markFailed("Failed to register user"): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:19:28 - [MESSAGE][FAILED] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 04:18:43 - [TEST_CASE][FAILED] - Test Cases/Register_negative: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register_negative" classname="Test Cases/Register_negative" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 04:19:28 - [TEST_CASE][FAILED] - Test Cases/Register_negative: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:19:28 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:19:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 04:19:28 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 04:19:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:19:38 - [TEST_STEP][PASSED] - waitForPageLoad(10, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 04:19:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 04:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register_Objects/Register_span")): Object: 'Object Repository/Register_Objects/Register_span' is clicked on
+
+2018-12-14 04:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Objects/Register_span' is clicked on
+
+2018-12-14 04:19:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/first_name"), reg_firstname_neg): Text 'Silvia' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/first_name'
+
+2018-12-14 04:19:54 - [MESSAGE][PASSED] - Text 'Silvia' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/first_name'
+
+2018-12-14 04:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/last_name"), reg_lastname_neg): Text 'okelo' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/last_name'
+
+2018-12-14 04:19:54 - [MESSAGE][PASSED] - Text 'okelo' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/last_name'
+
+2018-12-14 04:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no"), reg_mobile_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no'
+
+2018-12-14 04:19:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no'
+
+2018-12-14 04:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/email"), reg_email_neg): Text 'sokeish782@yahoo.com' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/email'
+
+2018-12-14 04:19:55 - [MESSAGE][PASSED] - Text 'sokeish782@yahoo.com' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/email'
+
+2018-12-14 04:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/password"), reg_pword_neg): Text 's' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/password'
+
+2018-12-14 04:19:55 - [MESSAGE][PASSED] - Text 's' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/password'
+
+2018-12-14 04:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password"), reg_conf_pword_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password'
+
+2018-12-14 04:19:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password'
+
+2018-12-14 04:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn")): Object: 'Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn' is clicked on
+
+2018-12-14 04:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn' is clicked on
+
+2018-12-14 04:19:55 - [TEST_STEP][PASSED] - success = waitForElementVisible(findTestObject("Object Repository/Register_Objects/Page_Customer Login/confirm_account_success"), 10, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Register_Objects/Page_Customer Login/confirm_account_success' located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div' not found
+
+2018-12-14 04:20:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 04:20:06 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Register_Objects/Page_Customer Login/confirm_account_success' located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div' not found
+
+2018-12-14 04:20:06 - [TEST_STEP][PASSED] - if (success): null
+
+2018-12-14 04:20:06 - [TEST_STEP][FAILED] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:20:06 - [TEST_STEP][FAILED] - markFailed("Failed to register user"): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:20:06 - [MESSAGE][FAILED] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 04:19:28 - [TEST_CASE][FAILED] - Test Cases/Register_negative: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register_negative" classname="Test Cases/Register_negative" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 04:20:06 - [TEST_CASE][FAILED] - Test Cases/Register_negative: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:20:06 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:20:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 04:20:07 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 04:20:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:20:17 - [TEST_STEP][PASSED] - waitForPageLoad(10, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 04:20:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 04:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register_Objects/Register_span")): Object: 'Object Repository/Register_Objects/Register_span' is clicked on
+
+2018-12-14 04:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Objects/Register_span' is clicked on
+
+2018-12-14 04:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/first_name"), reg_firstname_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/first_name'
+
+2018-12-14 04:20:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/first_name'
+
+2018-12-14 04:20:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/last_name"), reg_lastname_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/last_name'
+
+2018-12-14 04:20:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/last_name'
+
+2018-12-14 04:20:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no"), reg_mobile_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no'
+
+2018-12-14 04:20:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no'
+
+2018-12-14 04:20:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/email"), reg_email_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/email'
+
+2018-12-14 04:20:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/email'
+
+2018-12-14 04:20:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/password"), reg_pword_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/password'
+
+2018-12-14 04:20:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/password'
+
+2018-12-14 04:20:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password"), reg_conf_pword_neg): Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password'
+
+2018-12-14 04:20:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password'
+
+2018-12-14 04:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn")): Object: 'Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn' is clicked on
+
+2018-12-14 04:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn' is clicked on
+
+2018-12-14 04:20:25 - [TEST_STEP][PASSED] - success = waitForElementVisible(findTestObject("Object Repository/Register_Objects/Page_Customer Login/confirm_account_success"), 10, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Register_Objects/Page_Customer Login/confirm_account_success' located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div' not found
+
+2018-12-14 04:20:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 04:20:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Register_Objects/Page_Customer Login/confirm_account_success' located by 'By.xpath: //main[@id='maincontent']/div/div[2]/div/div/div' not found
+
+2018-12-14 04:20:35 - [TEST_STEP][PASSED] - if (success): null
+
+2018-12-14 04:20:35 - [TEST_STEP][FAILED] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:20:35 - [TEST_STEP][FAILED] - markFailed("Failed to register user"): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)
+
+
+2018-12-14 04:20:35 - [MESSAGE][FAILED] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 04:20:06 - [TEST_CASE][FAILED] - Test Cases/Register_negative: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 04:18:42 - [TEST_SUITE][FAILED] - Register_negative_user_Test_Suite: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-14 04:18:42 - [TEST_SUITE][FAILED] - Register_negative_user_Test_Suite: Test Cases/Register_negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to register user
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Register_negative.run(Register_negative:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544749953468.run(TempTestSuite1544749953468.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

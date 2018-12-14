@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite_negative,Chrome 70.0.3538.110,Test suite for negative login test cases,2018-12-13 21:49:45,2018-12-13 21:53:29,3m - 43.275s,FAILED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-13 21:49:47,2018-12-13 21:51:19,1m - 31.852s,FAILED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 21:49:49,2018-12-13 21:50:17,27.819s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:50:17,2018-12-13 21:50:17,0.420s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:50:17,2018-12-13 21:50:25,7.892s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:50:25,2018-12-13 21:50:25,0.433s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:50:25,2018-12-13 21:50:29,3.536s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:50:29,2018-12-13 21:50:31,1.731s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:50:31,2018-12-13 21:50:31,0.413s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5))",Chrome 70.0.3538.110,,2018-12-13 21:50:31,2018-12-13 21:51:19,47.974s,FAILED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-13 21:51:19,2018-12-13 21:51:57,37.985s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 21:51:19,2018-12-13 21:51:38,18.623s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:51:38,2018-12-13 21:51:38,0.048s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:51:38,2018-12-13 21:51:55,17.064s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:51:55,2018-12-13 21:51:56,0.897s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:51:56,2018-12-13 21:51:56,0.506s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:51:56,2018-12-13 21:51:57,0.346s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:51:57,2018-12-13 21:51:57,0.299s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5))",Chrome 70.0.3538.110,,2018-12-13 21:51:57,2018-12-13 21:51:57,0.127s,PASSED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-13 21:51:57,2018-12-13 21:53:27,1m - 30.085s,FAILED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 21:51:57,2018-12-13 21:52:22,24.400s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:52:22,2018-12-13 21:52:23,1.545s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:52:23,2018-12-13 21:52:32,8.925s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:52:32,2018-12-13 21:52:33,0.917s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:52:33,2018-12-13 21:52:39,6.455s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:52:39,2018-12-13 21:52:41,1.282s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:52:41,2018-12-13 21:52:50,9.048s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5))",Chrome 70.0.3538.110,,2018-12-13 21:52:50,2018-12-13 21:53:27,37.442s,FAILED

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite,Chrome 70.0.3538.110,Collection of Test cases for masoko login tests,2018-12-13 23:09:09,2018-12-13 23:12:29,3m - 20.113s,FAILED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-13 23:09:11,2018-12-13 23:11:56,2m - 45.400s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 23:09:12,2018-12-13 23:09:33,21.171s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:09:33,2018-12-13 23:09:35,1.847s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:09:35,2018-12-13 23:09:54,18.349s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:09:54,2018-12-13 23:09:55,1.215s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:09:55,2018-12-13 23:09:57,1.983s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:09:57,2018-12-13 23:09:59,1.901s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:09:59,2018-12-13 23:10:06,7.397s,PASSED
+"Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:10:06,2018-12-13 23:11:04,58.109s,PASSED
+"Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:11:04,2018-12-13 23:11:56,51.799s,PASSED
+Statement - If (success),Chrome 70.0.3538.110,,2018-12-13 23:11:56,2018-12-13 23:11:56,0.001s,PASSED
+Statement - Else If (success1),Chrome 70.0.3538.110,,2018-12-13 23:11:56,2018-12-13 23:11:56,0.001s,PASSED
+Statement - Else,Chrome 70.0.3538.110,,2018-12-13 23:11:56,2018-12-13 23:11:56,0.014s,PASSED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-13 23:11:56,2018-12-13 23:12:27,31.148s,FAILED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 23:11:56,2018-12-13 23:12:15,18.920s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:12:15,2018-12-13 23:12:15,0.115s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:12:15,2018-12-13 23:12:22,6.790s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:12:22,2018-12-13 23:12:23,0.609s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:12:23,2018-12-13 23:12:25,2.166s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:12:25,2018-12-13 23:12:25,0.631s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:12:25,2018-12-13 23:12:26,0.837s,PASSED
+"Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:12:26,2018-12-13 23:12:27,0.497s,PASSED
+"Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:12:27,2018-12-13 23:12:27,0.496s,PASSED
+Statement - If (success),Chrome 70.0.3538.110,,2018-12-13 23:12:27,2018-12-13 23:12:27,0.003s,PASSED

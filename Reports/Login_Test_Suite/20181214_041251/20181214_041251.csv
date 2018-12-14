@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite,Chrome 70.0.3538.110,Collection of Test cases for masoko login tests,2018-12-14 04:14:51,2018-12-14 04:16:03,1m - 11.760s,FAILED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-14 04:14:52,2018-12-14 04:15:43,50.745s,PASSED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 04:14:53,2018-12-14 04:15:08,14.806s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:15:08,2018-12-14 04:15:09,1.343s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 04:15:09,2018-12-14 04:15:24,14.811s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:15:24,2018-12-14 04:15:25,0.583s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/email_textbox""), var_username)",Chrome 70.0.3538.110,,2018-12-14 04:15:25,2018-12-14 04:15:26,1.274s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/password_textbox""), var_password)",Chrome 70.0.3538.110,,2018-12-14 04:15:26,2018-12-14 04:15:26,0.219s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 04:15:26,2018-12-14 04:15:31,5.161s,PASSED
+"success = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_email""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:15:31,2018-12-14 04:15:37,5.355s,PASSED
+"success1 = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_password""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:15:37,2018-12-14 04:15:43,6.193s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 04:15:43,2018-12-14 04:15:43,0.001s,PASSED
+else if (success1),Chrome 70.0.3538.110,,2018-12-14 04:15:43,2018-12-14 04:15:43,0.002s,PASSED
+else,Chrome 70.0.3538.110,,2018-12-14 04:15:43,2018-12-14 04:15:43,0.020s,PASSED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-14 04:15:43,2018-12-14 04:16:02,19.380s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 04:15:43,2018-12-14 04:15:55,11.821s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:15:55,2018-12-14 04:15:55,0.037s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 04:15:55,2018-12-14 04:16:00,5.427s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:16:00,2018-12-14 04:16:01,0.134s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/email_textbox""), var_username)",Chrome 70.0.3538.110,,2018-12-14 04:16:01,2018-12-14 04:16:02,1.113s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/password_textbox""), var_password)",Chrome 70.0.3538.110,,2018-12-14 04:16:02,2018-12-14 04:16:02,0.169s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 04:16:02,2018-12-14 04:16:02,0.167s,PASSED
+"success = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_email""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:16:02,2018-12-14 04:16:02,0.086s,PASSED
+"success1 = waitForElementVisible(findTestObject(""Object Repository/Page_Customer Login/Page_Customer Login/required_password""), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 04:16:02,2018-12-14 04:16:02,0.187s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 04:16:02,2018-12-14 04:16:02,0.030s,FAILED

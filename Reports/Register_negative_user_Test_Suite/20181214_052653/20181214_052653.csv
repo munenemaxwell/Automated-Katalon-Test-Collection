@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register_negative_user_Test_Suite,Chrome 70.0.3538.110,Test suite for negative user registration test cases,2018-12-14 05:34:11,2018-12-14 05:39:50,5m - 38.996s,FAILED
+,,,,,,
+Test Cases/Register_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot register in masoko ecomerce by providing invalid details,2018-12-14 05:34:12,2018-12-14 05:34:46,33.975s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:34:14,2018-12-14 05:34:27,13.043s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:34:27,2018-12-14 05:34:27,0.144s,PASSED
+"click(findTestObject(""Object Repository/Register_Objects/Register_span""))",Chrome 70.0.3538.110,,2018-12-14 05:34:27,2018-12-14 05:34:33,5.763s,PASSED
+"setText(findTestObject(""Object Repository/Register_Objects/Page_Create New Customer Account/first_name""), reg_firstname_neg)",Chrome 70.0.3538.110,,2018-12-14 05:34:33,2018-12-14 05:34:34,1.200s,PASSED
+"setText(findTestObject(""Object Repository/Register_Objects/Page_Create New Customer Account/last_name""), reg_lastname_neg)",Chrome 70.0.3538.110,,2018-12-14 05:34:34,2018-12-14 05:34:34,0.168s,PASSED
+"setText(findTestObject(""Object Repository/Register_Objects/Page_Create New Customer Account/mobile_no""), reg_mobile_neg)",Chrome 70.0.3538.110,,2018-12-14 05:34:34,2018-12-14 05:34:35,0.180s,PASSED
+"setText(findTestObject(""Object Repository/Register_Objects/Page_Create New Customer Account/email""), reg_email_neg)",Chrome 70.0.3538.110,,2018-12-14 05:34:35,2018-12-14 05:34:35,0.313s,PASSED
+"setText(findTestObject(""Object Repository/Register_Objects/Page_Create New Customer Account/password""), reg_pword_neg)",Chrome 70.0.3538.110,,2018-12-14 05:34:35,2018-12-14 05:34:35,0.273s,PASSED
+"setText(findTestObject(""Object Repository/Register_Objects/Page_Create New Customer Account/confirm_password""), reg_conf_pword_neg)",Chrome 70.0.3538.110,,2018-12-14 05:34:35,2018-12-14 05:34:35,0.181s,PASSED
+"click(findTestObject(""Object Repository/Register_Objects/Page_Create New Customer Account/create_account_btn""))",Chrome 70.0.3538.110,,2018-12-14 05:34:35,2018-12-14 05:34:36,0.475s,PASSED
+"success = waitForElementVisible(findTestObject(""Object Repository/Register_Objects/Page_Customer Login/confirm_account_success""), 10, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:34:36,2018-12-14 05:34:46,10.354s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 05:34:46,2018-12-14 05:34:46,0.001s,PASSED
+else,Chrome 70.0.3538.110,,2018-12-14 05:34:46,2018-12-14 05:34:46,0.023s,FAILED
+,,,,,,
+Test Cases/Register_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot register in masoko ecomerce by providing invalid details,2018-12-14 05:34:46,2018-12-14 05:39:50,5m - 3.301s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:34:46,2018-12-14 05:39:50,5m - 3.247s,FAILED

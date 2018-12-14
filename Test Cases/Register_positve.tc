@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to ascertain a user can register to masoko ecomerce  successfully by providing valid details</description>
+   <name>Register_positve</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4487158-5447-4358-a351-9181432102bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e525379b-58da-4527-854e-bf63a72d8267</id>
+      <masked>false</masked>
+      <name>reg_firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ddaff1d-6ce2-4667-ae5f-356e1cafa265</id>
+      <masked>false</masked>
+      <name>reg_lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c66bd918-b1e1-4023-87c2-66a6b545fae2</id>
+      <masked>false</masked>
+      <name>reg_mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>647dbd45-f213-4c5f-925f-20a1fd7d4977</id>
+      <masked>false</masked>
+      <name>reg_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>20e89c8d-ba25-4e4a-981b-279d910b564c</id>
+      <masked>false</masked>
+      <name>reg_pword</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>369bbb01-b13b-4d4b-8d1e-65937e7cd4df</id>
+      <masked>false</masked>
+      <name>reg_conf_pword</name>
+   </variable>
+</TestCaseEntity>

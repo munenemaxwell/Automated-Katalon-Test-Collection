@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite_negative,Chrome 70.0.3538.110,Test suite for negative login test cases,2018-12-14 02:25:05,2018-12-14 02:26:57,1m - 52.402s,FAILED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-14 02:25:05,2018-12-14 02:25:44,38.863s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 02:25:06,2018-12-14 02:25:12,6.232s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 02:25:12,2018-12-14 02:25:12,0.153s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 02:25:12,2018-12-14 02:25:44,31.433s,FAILED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-14 02:25:44,2018-12-14 02:26:20,36.397s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 02:25:44,2018-12-14 02:25:49,5.048s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 02:25:49,2018-12-14 02:25:49,0.012s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 02:25:49,2018-12-14 02:26:20,31.299s,FAILED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-14 02:26:20,2018-12-14 02:26:56,36.050s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 02:26:20,2018-12-14 02:26:25,4.887s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 02:26:25,2018-12-14 02:26:25,0.014s,PASSED
+"click(findTestObject(""Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In""))",Chrome 70.0.3538.110,,2018-12-14 02:26:25,2018-12-14 02:26:56,31.125s,FAILED

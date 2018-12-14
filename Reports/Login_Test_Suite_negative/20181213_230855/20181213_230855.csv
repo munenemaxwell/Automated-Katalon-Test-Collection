@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite_negative,Chrome 70.0.3538.110,Test suite for negative login test cases,2018-12-13 23:12:37,2018-12-13 23:18:01,5m - 23.799s,PASSED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-13 23:12:40,2018-12-13 23:14:17,1m - 37.053s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 23:12:42,2018-12-13 23:13:08,26.419s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:13:08,2018-12-13 23:13:09,0.599s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:13:09,2018-12-13 23:13:14,5.432s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:13:14,2018-12-13 23:13:15,0.485s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:13:15,2018-12-13 23:13:18,3.167s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:13:18,2018-12-13 23:13:18,0.415s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:13:18,2018-12-13 23:13:19,0.429s,PASSED
+"Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:13:19,2018-12-13 23:13:57,38.043s,PASSED
+"Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:13:57,2018-12-13 23:13:57,0.136s,PASSED
+"Statement - success2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err), 5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:13:57,2018-12-13 23:14:17,19.646s,PASSED
+Statement - If (success),Chrome 70.0.3538.110,,2018-12-13 23:14:17,2018-12-13 23:14:17,0.001s,PASSED
+Statement - Else If (success1),Chrome 70.0.3538.110,,2018-12-13 23:14:17,2018-12-13 23:14:17,0.014s,PASSED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-13 23:14:17,2018-12-13 23:15:46,1m - 29.133s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 23:14:17,2018-12-13 23:14:34,17.821s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:14:34,2018-12-13 23:14:34,0.077s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:14:34,2018-12-13 23:14:41,6.287s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:14:41,2018-12-13 23:14:42,0.962s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:14:42,2018-12-13 23:14:45,2.779s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:14:45,2018-12-13 23:14:46,1.238s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:14:46,2018-12-13 23:14:46,0.463s,PASSED
+"Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:14:46,2018-12-13 23:14:46,0.114s,PASSED
+"Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:14:46,2018-12-13 23:15:28,41.269s,PASSED
+"Statement - success2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err), 5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:15:28,2018-12-13 23:15:46,18.086s,PASSED
+Statement - If (success),Chrome 70.0.3538.110,,2018-12-13 23:15:46,2018-12-13 23:15:46,0.003s,PASSED
+,,,,,,
+Test Cases/Log_In_negative,Chrome 70.0.3538.110,Test case to ascertain that a user having invalid username and password cannot log in to masoko,2018-12-13 23:15:46,2018-12-13 23:18:00,2m - 13.906s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 23:15:46,2018-12-13 23:16:06,20.015s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:16:06,2018-12-13 23:16:06,0.154s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:16:06,2018-12-13 23:16:22,15.743s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 23:16:22,2018-12-13 23:16:23,1.014s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:16:23,2018-12-13 23:16:24,0.900s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 23:16:24,2018-12-13 23:16:24,0.425s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 23:16:24,2018-12-13 23:16:31,6.884s,PASSED
+"Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:16:31,2018-12-13 23:17:24,53.299s,PASSED
+"Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:17:24,2018-12-13 23:17:59,35.314s,PASSED
+"Statement - success2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err), 5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-13 23:17:59,2018-12-13 23:18:00,0.119s,PASSED
+Statement - If (success),Chrome 70.0.3538.110,,2018-12-13 23:18:00,2018-12-13 23:18:00,0.001s,PASSED
+Statement - Else If (success1),Chrome 70.0.3538.110,,2018-12-13 23:18:00,2018-12-13 23:18:00,0.001s,PASSED
+Statement - Else,Chrome 70.0.3538.110,,2018-12-13 23:18:00,2018-12-13 23:18:00,0.004s,PASSED

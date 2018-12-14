@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to ascertain a user can search for a specified product and add to cart upto check up point</description>
+   <name>Product Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd7b66be-d8de-443a-96fd-76088f19642e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e1c17d17-3a34-4eb0-9a6f-654595a24d6f</id>
+      <masked>false</masked>
+      <name>var_product_name</name>
+   </variable>
+</TestCaseEntity>

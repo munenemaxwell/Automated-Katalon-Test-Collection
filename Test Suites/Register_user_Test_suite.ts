@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>test suite for positive test cases for user registration in masoko</description>
+   <name>Register_user_Test_suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-12-14T05:41:43</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f9f305b0-437b-4ab7-8335-7ef98b378952</testSuiteGuid>
+   <testCaseLink>
+      <guid>7c217583-a2fc-4a09-a111-def601e15874</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Register_positve</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>418ba667-9c9c-49e9-b3a7-20c0e94286ba</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Registration_test_data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>418ba667-9c9c-49e9-b3a7-20c0e94286ba</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>First_Name</value>
+         <variableId>e525379b-58da-4527-854e-bf63a72d8267</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>418ba667-9c9c-49e9-b3a7-20c0e94286ba</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Last_Name</value>
+         <variableId>6ddaff1d-6ce2-4667-ae5f-356e1cafa265</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>418ba667-9c9c-49e9-b3a7-20c0e94286ba</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mobile_No</value>
+         <variableId>c66bd918-b1e1-4023-87c2-66a6b545fae2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>418ba667-9c9c-49e9-b3a7-20c0e94286ba</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>647dbd45-f213-4c5f-925f-20a1fd7d4977</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>418ba667-9c9c-49e9-b3a7-20c0e94286ba</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>20e89c8d-ba25-4e4a-981b-279d910b564c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>418ba667-9c9c-49e9-b3a7-20c0e94286ba</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Confirm_Password</value>
+         <variableId>369bbb01-b13b-4d4b-8d1e-65937e7cd4df</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite,Chrome 70.0.3538.110,Collection of Test cases for masoko login tests,2018-12-13 17:06:54,2018-12-13 17:08:04,1m - 9.813s,PASSED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-13 17:06:55,2018-12-13 17:07:25,29.686s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 17:06:56,2018-12-13 17:07:08,11.455s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 17:07:08,2018-12-13 17:07:08,0.323s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 17:07:08,2018-12-13 17:07:14,6.177s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 17:07:14,2018-12-13 17:07:16,1.656s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:16,2018-12-13 17:07:17,0.757s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:17,2018-12-13 17:07:17,0.336s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:17,2018-12-13 17:07:18,0.818s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:18,2018-12-13 17:07:18,0.166s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:18,2018-12-13 17:07:18,0.410s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:18,2018-12-13 17:07:19,0.267s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:19,2018-12-13 17:07:19,0.203s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:19,2018-12-13 17:07:19,0.177s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:19,2018-12-13 17:07:19,0.155s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:19,2018-12-13 17:07:19,0.196s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:19,2018-12-13 17:07:20,0.171s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 17:07:20,2018-12-13 17:07:24,4.903s,PASSED
+Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Shop Online in Kenya - Pay Con/span_Hello maxwell)),Chrome 70.0.3538.110,,2018-12-13 17:07:24,2018-12-13 17:07:25,0.216s,PASSED
+Statement - println(result),Chrome 70.0.3538.110,,2018-12-13 17:07:25,2018-12-13 17:07:25,0.006s,PASSED
+verifyElementPresent,Chrome 70.0.3538.110,,2018-12-13 17:07:25,2018-12-13 17:07:25,0.192s,PASSED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-13 17:07:25,2018-12-13 17:08:03,37.935s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 17:07:25,2018-12-13 17:07:36,11.284s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 17:07:36,2018-12-13 17:07:36,0.015s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 17:07:36,2018-12-13 17:07:51,15.219s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 17:07:51,2018-12-13 17:07:53,1.690s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:53,2018-12-13 17:07:53,0.178s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:53,2018-12-13 17:07:53,0.128s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:53,2018-12-13 17:07:54,0.123s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:54,2018-12-13 17:07:54,0.126s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:54,2018-12-13 17:07:54,0.168s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:54,2018-12-13 17:07:54,0.138s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:54,2018-12-13 17:07:54,0.136s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:54,2018-12-13 17:07:54,0.200s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:54,2018-12-13 17:07:55,0.196s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:55,2018-12-13 17:07:55,0.193s,PASSED
+setEncryptedText,Chrome 70.0.3538.110,,2018-12-13 17:07:55,2018-12-13 17:07:55,0.154s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 17:07:55,2018-12-13 17:08:02,6.684s,PASSED
+Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Shop Online in Kenya - Pay Con/span_Hello maxwell)),Chrome 70.0.3538.110,,2018-12-13 17:08:02,2018-12-13 17:08:03,1.100s,PASSED
+Statement - println(result),Chrome 70.0.3538.110,,2018-12-13 17:08:03,2018-12-13 17:08:03,0.001s,PASSED
+verifyElementPresent,Chrome 70.0.3538.110,,2018-12-13 17:08:03,2018-12-13 17:08:03,0.145s,PASSED

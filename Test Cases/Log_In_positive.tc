@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to ascertain that a user having valid username and password can log in to masoko</description>
+   <name>Log_In_positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28089d2c-702e-4dfa-82bc-17aef8a752af</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>22a34eb5-f958-409f-b138-c93435de2675</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0828bece-e32e-4138-ab1b-6f7b70c68791</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>

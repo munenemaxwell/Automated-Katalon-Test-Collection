@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register_user_Test_suite,Chrome 70.0.3538.110,test suite for positive test cases for user registration in masoko,2018-12-14 05:43:58,2018-12-14 05:45:46,1m - 48.514s,FAILED
+,,,,,,
+Test Cases/Register_positve,Chrome 70.0.3538.110,Test case to ascertain a user can register to masoko ecomerce  successfully by providing valid details,2018-12-14 05:43:58,2018-12-14 05:44:37,38.286s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:44:00,2018-12-14 05:44:05,5.705s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:44:05,2018-12-14 05:44:06,0.130s,PASSED
+"click(findTestObject(""Object Repository/Register_Objects/Register_span""))",Chrome 70.0.3538.110,,2018-12-14 05:44:06,2018-12-14 05:44:37,31.088s,FAILED
+,,,,,,
+Test Cases/Register_positve,Chrome 70.0.3538.110,Test case to ascertain a user can register to masoko ecomerce  successfully by providing valid details,2018-12-14 05:44:37,2018-12-14 05:45:11,34.699s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:44:37,2018-12-14 05:44:40,3.148s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:44:40,2018-12-14 05:44:40,0.015s,PASSED
+"click(findTestObject(""Object Repository/Register_Objects/Register_span""))",Chrome 70.0.3538.110,,2018-12-14 05:44:40,2018-12-14 05:45:11,31.506s,FAILED
+,,,,,,
+Test Cases/Register_positve,Chrome 70.0.3538.110,Test case to ascertain a user can register to masoko ecomerce  successfully by providing valid details,2018-12-14 05:45:11,2018-12-14 05:45:46,34.347s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:45:11,2018-12-14 05:45:15,3.198s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:45:15,2018-12-14 05:45:15,0.015s,PASSED
+"click(findTestObject(""Object Repository/Register_Objects/Register_span""))",Chrome 70.0.3538.110,,2018-12-14 05:45:15,2018-12-14 05:45:46,31.108s,FAILED

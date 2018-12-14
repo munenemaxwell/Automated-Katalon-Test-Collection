@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Product_search_Test_Suite,Chrome 70.0.3538.110,Test cases for positive product search,2018-12-14 05:44:56,2018-12-14 05:46:44,1m - 48.490s,FAILED
+,,,,,,
+Test Cases/Product Search,Chrome 70.0.3538.110,Test case to ascertain a user can search for a specified product and add to cart upto check up point,2018-12-14 05:44:56,2018-12-14 05:45:35,38.534s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:44:58,2018-12-14 05:45:03,5.534s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:45:03,2018-12-14 05:45:04,0.405s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name)",Chrome 70.0.3538.110,,2018-12-14 05:45:04,2018-12-14 05:45:35,31.441s,FAILED
+,,,,,,
+Test Cases/Product Search,Chrome 70.0.3538.110,Test case to ascertain a user can search for a specified product and add to cart upto check up point,2018-12-14 05:45:35,2018-12-14 05:46:09,34.248s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:45:35,2018-12-14 05:45:38,3.236s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:45:38,2018-12-14 05:45:38,0.013s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name)",Chrome 70.0.3538.110,,2018-12-14 05:45:38,2018-12-14 05:46:09,30.978s,FAILED
+,,,,,,
+Test Cases/Product Search,Chrome 70.0.3538.110,Test case to ascertain a user can search for a specified product and add to cart upto check up point,2018-12-14 05:46:09,2018-12-14 05:46:44,34.428s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:46:09,2018-12-14 05:46:12,3.161s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:46:12,2018-12-14 05:46:12,0.012s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name)",Chrome 70.0.3538.110,,2018-12-14 05:46:12,2018-12-14 05:46:44,31.238s,FAILED

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Products_Search_negative_Test_Suite,Chrome 70.0.3538.110,test suite containing all negative test cases for product search,2018-12-14 05:30:34,2018-12-14 05:32:00,1m - 25.969s,FAILED
+,,,,,,
+Test Cases/Product_Search_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot search for a product without typing in a product name,2018-12-14 05:30:35,2018-12-14 05:31:08,33.046s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:30:36,2018-12-14 05:30:51,14.569s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:30:51,2018-12-14 05:30:51,0.249s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name_neg)",Chrome 70.0.3538.110,,2018-12-14 05:30:51,2018-12-14 05:30:52,1.126s,PASSED
+"click(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search""))",Chrome 70.0.3538.110,,2018-12-14 05:30:52,2018-12-14 05:30:58,5.397s,PASSED
+"success = waitForElementPresent(findTestObject(""Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt""), 10, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:30:58,2018-12-14 05:31:08,10.399s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 05:31:08,2018-12-14 05:31:08,0.001s,PASSED
+else,Chrome 70.0.3538.110,,2018-12-14 05:31:08,2018-12-14 05:31:08,0.029s,FAILED
+,,,,,,
+Test Cases/Product_Search_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot search for a product without typing in a product name,2018-12-14 05:31:08,2018-12-14 05:31:35,26.496s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:31:08,2018-12-14 05:31:19,10.652s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:31:19,2018-12-14 05:31:19,0.011s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name_neg)",Chrome 70.0.3538.110,,2018-12-14 05:31:19,2018-12-14 05:31:19,0.126s,PASSED
+"click(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search""))",Chrome 70.0.3538.110,,2018-12-14 05:31:19,2018-12-14 05:31:24,5.336s,PASSED
+"success = waitForElementPresent(findTestObject(""Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt""), 10, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:31:24,2018-12-14 05:31:35,10.323s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 05:31:35,2018-12-14 05:31:35,0.001s,PASSED
+else,Chrome 70.0.3538.110,,2018-12-14 05:31:35,2018-12-14 05:31:35,0.004s,FAILED
+,,,,,,
+Test Cases/Product_Search_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot search for a product without typing in a product name,2018-12-14 05:31:35,2018-12-14 05:32:00,24.924s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:31:35,2018-12-14 05:31:45,9.940s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:31:45,2018-12-14 05:31:45,0.011s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name_neg)",Chrome 70.0.3538.110,,2018-12-14 05:31:45,2018-12-14 05:31:45,0.168s,PASSED
+"click(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search""))",Chrome 70.0.3538.110,,2018-12-14 05:31:45,2018-12-14 05:31:49,4.039s,PASSED
+"success = waitForElementPresent(findTestObject(""Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt""), 10, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:31:49,2018-12-14 05:32:00,10.743s,PASSED
+if (success),Chrome 70.0.3538.110,,2018-12-14 05:32:00,2018-12-14 05:32:00,0.001s,PASSED
+else,Chrome 70.0.3538.110,,2018-12-14 05:32:00,2018-12-14 05:32:00,0.003s,FAILED

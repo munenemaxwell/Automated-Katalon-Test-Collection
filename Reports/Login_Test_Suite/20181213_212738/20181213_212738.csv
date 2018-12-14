@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test_Suite,Chrome 70.0.3538.110,Collection of Test cases for masoko login tests,2018-12-13 21:27:48,2018-12-13 21:30:00,2m - 11.282s,FAILED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-13 21:27:50,2018-12-13 21:29:27,1m - 37.093s,FAILED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 21:27:52,2018-12-13 21:28:12,20.298s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:28:12,2018-12-13 21:28:12,0.504s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:28:12,2018-12-13 21:28:19,6.209s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:28:19,2018-12-13 21:28:19,0.301s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:28:19,2018-12-13 21:28:21,1.830s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:28:21,2018-12-13 21:28:21,0.669s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:28:21,2018-12-13 21:28:28,6.631s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5))",Chrome 70.0.3538.110,,2018-12-13 21:28:28,2018-12-13 21:29:27,59.282s,FAILED
+,,,,,,
+Test Cases/Log_In_positive,Chrome 70.0.3538.110,Test case to ascertain that a user having valid username and password can log in to masoko,2018-12-13 21:29:27,2018-12-13 21:29:58,30.196s,FAILED
+openBrowser,Chrome 70.0.3538.110,,2018-12-13 21:29:27,2018-12-13 21:29:45,18.019s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:29:45,2018-12-13 21:29:47,2.013s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:29:47,2018-12-13 21:29:54,6.763s,PASSED
+waitForPageLoad,Chrome 70.0.3538.110,,2018-12-13 21:29:54,2018-12-13 21:29:55,0.700s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:29:55,2018-12-13 21:29:56,1.436s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-13 21:29:56,2018-12-13 21:29:57,0.648s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-13 21:29:57,2018-12-13 21:29:57,0.422s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5))",Chrome 70.0.3538.110,,2018-12-13 21:29:57,2018-12-13 21:29:58,0.162s,PASSED

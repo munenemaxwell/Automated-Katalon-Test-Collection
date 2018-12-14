@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to ascertain that a user cannot register in masoko ecomerce by providing invalid details</description>
+   <name>Register_negative</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e13fdd14-9c0b-4d16-b0e9-06eb0ee16592</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>564d3eac-e219-4cf4-b773-8e930d94f209</id>
+      <masked>false</masked>
+      <name>reg_firstname_neg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8aa93220-e431-4ae0-9abe-745db7e152e9</id>
+      <masked>false</masked>
+      <name>reg_lastname_neg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ac96000-7dfc-4155-8f24-65e93b6cf2f3</id>
+      <masked>false</masked>
+      <name>reg_mobile_neg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08060ab2-1a96-435c-a8e7-55056e852983</id>
+      <masked>false</masked>
+      <name>reg_email_neg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>292357aa-576f-466e-b9c3-cfe3df7e756e</id>
+      <masked>false</masked>
+      <name>reg_pword_neg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e53ba19-9173-46ce-8f50-0e63d1676d60</id>
+      <masked>false</masked>
+      <name>reg_conf_pword_neg</name>
+   </variable>
+</TestCaseEntity>

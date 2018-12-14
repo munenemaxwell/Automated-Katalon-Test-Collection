@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Test_Suite_negative" time="323" tests="3" failures="0" errors="0">
+   <testsuite name="Login_Test_Suite_negative" tests="3" failures="0" errors="0" time="323" timestamp="2018-12-13 23:12:37" hostname="MNJUGUNA3 - LTTECH034.mshome.net" id="Test Suites/Login_Test_Suite_negative">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Login_Test_Suite_negative\\20181213_230855"/>
+         <property name="logFiles" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Login_Test_Suite_negative\\20181213_230855\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MNJUGUNA3 - LTTECH034.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.28.120.177"/>
+         <property name="sessionId" value="474931e738e335a7d7500fa90a0957f4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Log_In_negative" classname="Test Cases/Log_In_negative" status="PASSED">
+         <system-out><![CDATA[2018-12-13 23:12:40 - [TEST_CASE][PASSED] - Test Cases/Log_In_negative: Test Cases/Log_In_negative
+
+2018-12-13 23:12:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 23:13:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 23:13:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-12-13 23:13:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-13 23:13:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-13 23:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-13 23:13:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-12-13 23:13:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-13 23:13:15 - [TEST_STEP][PASSED] - setText: Text 'maxwellmunene007@gmail.com' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-13 23:13:18 - [MESSAGE][PASSED] - Text 'maxwellmunene007@gmail.com' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-13 23:13:18 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-13 23:13:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-13 23:13:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-13 23:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-13 23:13:19 - [TEST_STEP][PASSED] - Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' located by 'By.xpath: //div[@id='email-error']' not found
+
+2018-12-13 23:13:57 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' located by 'By.xpath: //div[@id='email-error']' not found
+
+2018-12-13 23:13:57 - [TEST_STEP][PASSED] - Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' is visible
+
+2018-12-13 23:13:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' is visible
+
+2018-12-13 23:13:57 - [TEST_STEP][PASSED] - Statement - success2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err), 5, STOP_ON_FAILURE): Object 'Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err' is not present after 5 second(s)
+
+2018-12-13 23:14:17 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err' is not present after 5 second(s)
+
+2018-12-13 23:14:17 - [TEST_STEP][PASSED] - Statement - If (success): null
+
+2018-12-13 23:14:17 - [TEST_STEP][PASSED] - Statement - Else If (success1): Cannot log in as password is a required field
+
+2018-12-13 23:14:17 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("Cannot log in as password is a required field"): Cannot log in as password is a required field
+
+2018-12-13 23:14:17 - [MESSAGE][PASSED] - Cannot log in as password is a required field]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Log_In_negative" classname="Test Cases/Log_In_negative" status="PASSED">
+         <system-out><![CDATA[2018-12-13 23:14:17 - [TEST_CASE][PASSED] - Test Cases/Log_In_negative: Test Cases/Log_In_negative
+
+2018-12-13 23:14:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 23:14:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-13 23:14:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 23:14:34 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-12-13 23:14:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-13 23:14:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-13 23:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-13 23:14:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-12-13 23:14:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-13 23:14:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-13 23:14:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-13 23:14:45 - [TEST_STEP][PASSED] - setText: Text 'burex007*#' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-13 23:14:46 - [MESSAGE][PASSED] - Text 'burex007*#' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-13 23:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-13 23:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-13 23:14:46 - [TEST_STEP][PASSED] - Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' is visible
+
+2018-12-13 23:14:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' is visible
+
+2018-12-13 23:14:46 - [TEST_STEP][PASSED] - Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' located by 'By.xpath: //div[@id='pass-error']' not found
+
+2018-12-13 23:15:28 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' located by 'By.xpath: //div[@id='pass-error']' not found
+
+2018-12-13 23:15:28 - [TEST_STEP][PASSED] - Statement - success2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err), 5, STOP_ON_FAILURE): Object 'Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err' is not present after 5 second(s)
+
+2018-12-13 23:15:46 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err' is not present after 5 second(s)
+
+2018-12-13 23:15:46 - [TEST_STEP][PASSED] - Statement - If (success): Cannot log in as Username is a required field
+
+2018-12-13 23:15:46 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("Cannot log in as Username is a required field"): Cannot log in as Username is a required field
+
+2018-12-13 23:15:46 - [MESSAGE][PASSED] - Cannot log in as Username is a required field]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Log_In_negative" classname="Test Cases/Log_In_negative" status="PASSED">
+         <system-out><![CDATA[2018-12-13 23:15:46 - [TEST_CASE][PASSED] - Test Cases/Log_In_negative: Test Cases/Log_In_negative
+
+2018-12-13 23:15:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 23:15:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-13 23:16:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-13 23:16:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-12-13 23:16:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-13 23:16:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-13 23:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-13 23:16:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-12-13 23:16:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-13 23:16:23 - [TEST_STEP][PASSED] - setText: Text 'randomemail@gmail.com' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-13 23:16:24 - [MESSAGE][PASSED] - Text 'randomemail@gmail.com' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-13 23:16:24 - [TEST_STEP][PASSED] - setText: Text 'randompass' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-13 23:16:24 - [MESSAGE][PASSED] - Text 'randompass' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-13 23:16:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-13 23:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-13 23:16:31 - [TEST_STEP][PASSED] - Statement - success = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_email), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' located by 'By.xpath: //div[@id='email-error']' not found
+
+2018-12-13 23:17:24 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' located by 'By.xpath: //div[@id='email-error']' not found
+
+2018-12-13 23:17:24 - [TEST_STEP][PASSED] - Statement - success1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/required_password), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' located by 'By.xpath: //div[@id='pass-error']' not found
+
+2018-12-13 23:17:59 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' located by 'By.xpath: //div[@id='pass-error']' not found
+
+2018-12-13 23:17:59 - [TEST_STEP][PASSED] - Statement - success2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err), 5, STOP_ON_FAILURE): Object 'Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err' is present
+
+2018-12-13 23:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Customer Login/Page_Customer Login/invalid_username_or_pass_err' is present
+
+2018-12-13 23:18:00 - [TEST_STEP][PASSED] - Statement - If (success): null
+
+2018-12-13 23:18:00 - [TEST_STEP][PASSED] - Statement - Else If (success1): null
+
+2018-12-13 23:18:00 - [TEST_STEP][PASSED] - Statement - Else: Cannot Log in using invalid credentials
+
+2018-12-13 23:18:00 - [TEST_STEP][PASSED] - Statement - If (success2): Cannot Log in using invalid credentials
+
+2018-12-13 23:18:00 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("Cannot Log in using invalid credentials"): Cannot Log in using invalid credentials
+
+2018-12-13 23:18:00 - [MESSAGE][PASSED] - Cannot Log in using invalid credentials]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-13 23:12:37 - [TEST_SUITE][PASSED] - Login_Test_Suite_negative: Test Cases/Log_In_negative]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product_search_Test_Suite" time="75" tests="3" failures="0" errors="0">
+   <testsuite name="Product_search_Test_Suite" tests="3" failures="0" errors="0" time="75" timestamp="2018-12-14 04:17:16" hostname="MNJUGUNA3 - LTTECH034.safaricom.net" id="Test Suites/Product_search_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Product_search_Test_Suite\\20181214_041155"/>
+         <property name="logFiles" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Product_search_Test_Suite\\20181214_041155\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MNJUGUNA3 - LTTECH034.safaricom.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="169.254.183.47"/>
+         <property name="sessionId" value="d8a8210b5de38d871469c69a926985ae"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Product Search" classname="Test Cases/Product Search" status="PASSED">
+         <system-out><![CDATA[2018-12-14 04:17:17 - [TEST_CASE][PASSED] - Test Cases/Product Search: Test Cases/Product Search
+
+2018-12-14 04:17:18 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:17:20 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 04:17:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 04:17:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:17:33 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 04:17:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 04:17:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product"), var_product_name): Text 'iphone' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 04:17:34 - [MESSAGE][PASSED] - Text 'iphone' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 04:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search")): Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 04:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 04:17:46 - [TEST_STEP][PASSED] - success = waitForElementPresent(findTestObject("Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 04:17:47 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 04:17:47 - [TEST_STEP][PASSED] - if (success): Successfully search for product
+
+2018-12-14 04:17:47 - [TEST_STEP][PASSED] - markPassed("Successfully search for product"): Successfully search for product
+
+2018-12-14 04:17:47 - [MESSAGE][PASSED] - Successfully search for product]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product Search" classname="Test Cases/Product Search" status="PASSED">
+         <system-out><![CDATA[2018-12-14 04:17:47 - [TEST_CASE][PASSED] - Test Cases/Product Search: Test Cases/Product Search
+
+2018-12-14 04:17:47 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:17:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 04:17:48 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 04:17:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:17:58 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 04:17:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 04:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product"), var_product_name): Text 'earphone' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 04:17:58 - [MESSAGE][PASSED] - Text 'earphone' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 04:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search")): Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 04:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 04:18:10 - [TEST_STEP][PASSED] - success = waitForElementPresent(findTestObject("Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 04:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 04:18:10 - [TEST_STEP][PASSED] - if (success): Successfully search for product
+
+2018-12-14 04:18:10 - [TEST_STEP][PASSED] - markPassed("Successfully search for product"): Successfully search for product
+
+2018-12-14 04:18:10 - [MESSAGE][PASSED] - Successfully search for product]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product Search" classname="Test Cases/Product Search" status="PASSED">
+         <system-out><![CDATA[2018-12-14 04:18:10 - [TEST_CASE][PASSED] - Test Cases/Product Search: Test Cases/Product Search
+
+2018-12-14 04:18:10 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:18:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 04:18:11 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 04:18:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 04:18:22 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 04:18:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 04:18:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product"), var_product_name): Text 'shampoo' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 04:18:22 - [MESSAGE][PASSED] - Text 'shampoo' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 04:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search")): Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 04:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 04:18:30 - [TEST_STEP][PASSED] - success = waitForElementPresent(findTestObject("Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 04:18:30 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 04:18:30 - [TEST_STEP][PASSED] - if (success): Successfully search for product
+
+2018-12-14 04:18:30 - [TEST_STEP][PASSED] - markPassed("Successfully search for product"): Successfully search for product
+
+2018-12-14 04:18:30 - [MESSAGE][PASSED] - Successfully search for product]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 04:17:16 - [TEST_SUITE][PASSED] - Product_search_Test_Suite: Test Cases/Product Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

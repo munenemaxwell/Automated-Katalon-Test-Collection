@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register_negative_user_Test_Suite,Chrome 70.0.3538.110,Test suite for negative user registration test cases,2018-12-14 05:42:40,2018-12-14 05:43:54,1m - 13.910s,FAILED
+,,,,,,
+Test Cases/Register_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot register in masoko ecomerce by providing invalid details,2018-12-14 05:42:41,2018-12-14 05:43:20,38.516s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:42:42,2018-12-14 05:42:48,5.609s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:42:48,2018-12-14 05:42:48,0.124s,PASSED
+"click(findTestObject(""Object Repository/Register_Objects/Register_span""))",Chrome 70.0.3538.110,,2018-12-14 05:42:48,2018-12-14 05:43:20,31.463s,FAILED
+,,,,,,
+Test Cases/Register_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot register in masoko ecomerce by providing invalid details,2018-12-14 05:43:20,2018-12-14 05:43:54,34.256s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:43:20,2018-12-14 05:43:23,3.201s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:43:23,2018-12-14 05:43:23,0.013s,PASSED
+"click(findTestObject(""Object Repository/Register_Objects/Register_span""))",Chrome 70.0.3538.110,,2018-12-14 05:43:23,2018-12-14 05:43:54,31.017s,FAILED

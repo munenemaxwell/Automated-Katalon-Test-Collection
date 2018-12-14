@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to ascertain that a user having invalid username and password cannot log in to masoko</description>
+   <name>Log_In_negative</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70764337-e332-4da3-b3bf-7fd43c6422c4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ace1a3c7-fc27-4d82-a27b-20e29e4b3bbf</id>
+      <masked>false</masked>
+      <name>var_username_neg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3274db78-d03b-4c82-8776-869c1d324dbf</id>
+      <masked>false</masked>
+      <name>var_password_neg</name>
+   </variable>
+</TestCaseEntity>

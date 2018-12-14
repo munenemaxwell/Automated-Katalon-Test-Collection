@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Test_Suite" time="60" tests="1" failures="1" errors="0">
+   <testsuite name="Login_Test_Suite" tests="1" failures="1" errors="0" time="60" timestamp="2018-12-14 05:27:27" hostname="LTTECH034$ - LTTECH034.safaricom.net" id="Test Suites/Login_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Login_Test_Suite\\20181214_052559"/>
+         <property name="logFiles" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Login_Test_Suite\\20181214_052559\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LTTECH034$ - LTTECH034.safaricom.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="169.254.183.47"/>
+         <property name="sessionId" value="afdf5ca54e873aa28c1d72152288eb39"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Log_In_positive" classname="Test Cases/Log_In_positive" status="PASSED">
+         <system-out><![CDATA[2018-12-14 05:27:27 - [TEST_CASE][PASSED] - Test Cases/Log_In_positive: Test Cases/Log_In_positive
+
+2018-12-14 05:27:29 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:27:30 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 05:27:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 05:27:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:27:46 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 05:27:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 05:27:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 05:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 05:27:52 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 05:27:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 05:27:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/email_textbox"), var_username): Text 'maxwellmunene007@gmail.com' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-14 05:27:53 - [MESSAGE][PASSED] - Text 'maxwellmunene007@gmail.com' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-14 05:27:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/password_textbox"), var_password): Text 'burex007*#' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-14 05:27:54 - [MESSAGE][PASSED] - Text 'burex007*#' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-14 05:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 05:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 05:27:59 - [TEST_STEP][PASSED] - success = waitForElementVisible(findTestObject("Object Repository/Page_Customer Login/Page_Customer Login/required_email"), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' located by 'By.xpath: //div[@id='email-error']' not found
+
+2018-12-14 05:28:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='email-error']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 05:28:04 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' located by 'By.xpath: //div[@id='email-error']' not found
+
+2018-12-14 05:28:04 - [TEST_STEP][PASSED] - success1 = waitForElementVisible(findTestObject("Object Repository/Page_Customer Login/Page_Customer Login/required_password"), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' located by 'By.xpath: //div[@id='pass-error']' not found
+
+2018-12-14 05:28:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='pass-error']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 05:28:09 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' located by 'By.xpath: //div[@id='pass-error']' not found
+
+2018-12-14 05:28:09 - [TEST_STEP][PASSED] - if (success): null
+
+2018-12-14 05:28:09 - [TEST_STEP][PASSED] - else if (success1): null
+
+2018-12-14 05:28:09 - [TEST_STEP][PASSED] - else: Logged the user in successfully
+
+2018-12-14 05:28:09 - [TEST_STEP][PASSED] - markPassed("Logged the user in successfully"): Logged the user in successfully
+
+2018-12-14 05:28:09 - [MESSAGE][PASSED] - Logged the user in successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Log_In_positive" classname="Test Cases/Log_In_positive" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Log_In_positive FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 05:28:09 - [TEST_CASE][FAILED] - Test Cases/Log_In_positive: Test Cases/Log_In_positive FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)
+
+
+2018-12-14 05:28:09 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:28:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 05:28:10 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 05:28:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:28:20 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 05:28:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 05:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 05:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-14 05:28:25 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 05:28:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 05:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/email_textbox"), var_username): Text '' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-14 05:28:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/email_textbox'
+
+2018-12-14 05:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/password_textbox"), var_password): Text '' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-14 05:28:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/password_textbox'
+
+2018-12-14 05:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 05:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-14 05:28:27 - [TEST_STEP][PASSED] - success = waitForElementVisible(findTestObject("Object Repository/Page_Customer Login/Page_Customer Login/required_email"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' is visible
+
+2018-12-14 05:28:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_email' is visible
+
+2018-12-14 05:28:27 - [TEST_STEP][PASSED] - success1 = waitForElementVisible(findTestObject("Object Repository/Page_Customer Login/Page_Customer Login/required_password"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' is visible
+
+2018-12-14 05:28:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Customer Login/Page_Customer Login/required_password' is visible
+
+2018-12-14 05:28:27 - [TEST_STEP][FAILED] - if (success): if (success) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)
+
+
+2018-12-14 05:28:27 - [TEST_STEP][FAILED] - markFailed("Username is a required field"): if (success) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)
+
+
+2018-12-14 05:28:27 - [MESSAGE][FAILED] - if (success) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 05:28:09 - [TEST_CASE][FAILED] - Test Cases/Log_In_positive: Test Cases/Log_In_positive FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 05:27:27 - [TEST_SUITE][FAILED] - Login_Test_Suite: Test Cases/Log_In_positive FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-14 05:27:27 - [TEST_SUITE][FAILED] - Login_Test_Suite: Test Cases/Log_In_positive FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Username is a required field
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Log_In_positive.run(Log_In_positive:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754368799.run(TempTestSuite1544754368799.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

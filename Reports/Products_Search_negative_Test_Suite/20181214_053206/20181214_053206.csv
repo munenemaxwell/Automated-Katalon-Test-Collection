@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Products_Search_negative_Test_Suite,Chrome 70.0.3538.110,test suite containing all negative test cases for product search,2018-12-14 05:43:04,2018-12-14 05:44:52,1m - 48.401s,FAILED
+,,,,,,
+Test Cases/Product_Search_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot search for a product without typing in a product name,2018-12-14 05:43:05,2018-12-14 05:43:42,37.971s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:43:06,2018-12-14 05:43:11,5.419s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:43:11,2018-12-14 05:43:11,0.158s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name_neg)",Chrome 70.0.3538.110,,2018-12-14 05:43:11,2018-12-14 05:43:42,31.176s,FAILED
+,,,,,,
+Test Cases/Product_Search_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot search for a product without typing in a product name,2018-12-14 05:43:42,2018-12-14 05:44:17,34.986s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:43:43,2018-12-14 05:43:46,3.213s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:43:46,2018-12-14 05:43:46,0.011s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name_neg)",Chrome 70.0.3538.110,,2018-12-14 05:43:46,2018-12-14 05:44:17,31.736s,FAILED
+,,,,,,
+Test Cases/Product_Search_negative,Chrome 70.0.3538.110,Test case to ascertain that a user cannot search for a product without typing in a product name,2018-12-14 05:44:17,2018-12-14 05:44:52,34.287s,FAILED
+"openBrowser(""https://www.masoko.com/"")",Chrome 70.0.3538.110,,2018-12-14 05:44:17,2018-12-14 05:44:21,3.210s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-14 05:44:21,2018-12-14 05:44:21,0.013s,PASSED
+"setText(findTestObject(""Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product""), var_product_name_neg)",Chrome 70.0.3538.110,,2018-12-14 05:44:21,2018-12-14 05:44:52,31.047s,FAILED

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product_search_Test_Suite" time="81" tests="1" failures="2" errors="0">
+   <testsuite name="Product_search_Test_Suite" tests="1" failures="2" errors="0" time="81" timestamp="2018-12-14 05:32:26" hostname="LTTECH034$ - LTTECH034.safaricom.net" id="Test Suites/Product_search_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Product_search_Test_Suite\\20181214_052638"/>
+         <property name="logFiles" value="C:\\Users\\MNJUGUNA3\\Katalon Studio\\Masoko_Automation\\Reports\\Product_search_Test_Suite\\20181214_052638\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LTTECH034$ - LTTECH034.safaricom.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="169.254.183.47"/>
+         <property name="sessionId" value="571dc610b7a6f6eeb0a6ea302a359919"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Product Search" classname="Test Cases/Product Search" status="PASSED">
+         <system-out><![CDATA[2018-12-14 05:32:27 - [TEST_CASE][PASSED] - Test Cases/Product Search: Test Cases/Product Search
+
+2018-12-14 05:32:29 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:32:29 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 05:32:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-14 05:32:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:32:44 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 05:32:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 05:32:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product"), var_product_name): Text 'iphone' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 05:32:45 - [MESSAGE][PASSED] - Text 'iphone' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 05:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search")): Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 05:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 05:32:53 - [TEST_STEP][PASSED] - success = waitForElementPresent(findTestObject("Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 05:32:54 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is present
+
+2018-12-14 05:32:54 - [TEST_STEP][PASSED] - if (success): Successfully search for product
+
+2018-12-14 05:32:54 - [TEST_STEP][PASSED] - markPassed("Successfully search for product"): Successfully search for product
+
+2018-12-14 05:32:54 - [MESSAGE][PASSED] - Successfully search for product]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product Search" classname="Test Cases/Product Search" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 05:32:54 - [TEST_CASE][FAILED] - Test Cases/Product Search: Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+
+
+2018-12-14 05:32:54 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:32:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 05:32:55 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 05:33:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:33:05 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 05:33:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 05:33:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product"), var_product_name): Text '' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 05:33:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 05:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search")): Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 05:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 05:33:10 - [TEST_STEP][PASSED] - success = waitForElementPresent(findTestObject("Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is not present after 10 second(s)
+
+2018-12-14 05:33:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='maincontent']/div[3]/div/div/h1/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 05:33:20 - [MESSAGE][WARNING] - Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is not present after 10 second(s)
+
+2018-12-14 05:33:20 - [TEST_STEP][PASSED] - if (success): null
+
+2018-12-14 05:33:20 - [TEST_STEP][FAILED] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+
+
+2018-12-14 05:33:20 - [TEST_STEP][FAILED] - markFailed("Failed to search for specified product"): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+
+
+2018-12-14 05:33:20 - [MESSAGE][FAILED] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 05:32:54 - [TEST_CASE][FAILED] - Test Cases/Product Search: Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product Search" classname="Test Cases/Product Search" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-14 05:33:20 - [TEST_CASE][FAILED] - Test Cases/Product Search: Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+
+
+2018-12-14 05:33:20 - [TEST_STEP][PASSED] - openBrowser("https://www.masoko.com/"): Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:33:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-14 05:33:21 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2018-12-14 05:33:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2018-12-14 05:33:31 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2018-12-14 05:33:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-14 05:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product"), var_product_name): Text '' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 05:33:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/search_product'
+
+2018-12-14 05:33:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search")): Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 05:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Objects/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-12-14 05:33:36 - [TEST_STEP][PASSED] - success = waitForElementPresent(findTestObject("Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is not present after 10 second(s)
+
+2018-12-14 05:33:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='maincontent']/div[3]/div/div/h1/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-14 05:33:47 - [MESSAGE][WARNING] - Object 'Object Repository/Search_Objects/Page_Search results for iphone/search_indicator_reslt' is not present after 10 second(s)
+
+2018-12-14 05:33:47 - [TEST_STEP][PASSED] - if (success): null
+
+2018-12-14 05:33:47 - [TEST_STEP][FAILED] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+
+
+2018-12-14 05:33:47 - [TEST_STEP][FAILED] - markFailed("Failed to search for specified product"): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)
+
+
+2018-12-14 05:33:47 - [MESSAGE][FAILED] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-14 05:33:20 - [TEST_CASE][FAILED] - Test Cases/Product Search: Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 05:32:26 - [TEST_SUITE][FAILED] - Product_search_Test_Suite: Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-14 05:32:26 - [TEST_SUITE][FAILED] - Product_search_Test_Suite: Test Cases/Product Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to search for specified product
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Product Search.run(Product Search:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544754413492.run(TempTestSuite1544754413492.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

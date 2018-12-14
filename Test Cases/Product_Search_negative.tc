@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to ascertain that a user cannot search for a product without typing in a product name</description>
+   <name>Product_Search_negative</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7028a716-7bfe-4e66-a411-36eedd0c82c9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65bbe45c-9b8f-44b9-8e98-0714b1c7f4e2</id>
+      <masked>false</masked>
+      <name>var_product_name_neg</name>
+   </variable>
+</TestCaseEntity>
